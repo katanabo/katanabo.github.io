@@ -32,7 +32,7 @@
     "test": "jest --config ./internal/testing/jest-config.ts",
     "test:coverage": "jest --coverage --config ./internal/testing/jest-config.ts",
     "test:watch": "jest --watch --config ./internal/testing/jest-config.ts",
-    "deploy": "gatsby build && cp -pvr public/* ../ && git add ../ && git commit -m 'Deploy to production' && git push"
+    "deploy": "gatsby build && git add ../ && git commit -m 'Deploy to production' && git push"
   },
   "commitlint": {
     "extends": [
